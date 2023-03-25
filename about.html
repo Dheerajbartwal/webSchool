@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/lo-removebg-preview.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+
+
+    <!-- ------------------------------------------------- about us content ----------------------------------------------------- -->
+
+
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are best School <br> In uttrakhand</h1>
+                <p>The school has a newly built multipurpose auditorium with a seating capacity of 500. The auditorium is well-equipped for activities like school events for students and parents, drama, theatre and indoor sports such as Badminton. The school
+                    has a good system of sanitation. Special arrangements are retained for drinking water. The students have other facilities also. There is a good library, a common room and an open playground in the school. Sports and games are regularly
+                    held here.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/vidya.jpg" alt="">
+
+            </div>
+    </section>
+
+
+    <!------------------------------------------------------------- Footer --------------------------------------------------------->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Admission are open 2023 <br> saraswati vidya mandir jakhanidhar Tehri garhwal uttrakhand.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkdin"></i>
+
+
+        </div>
+        <p>Made With <i class="fa fa-heart-o"> by DHEERAJ BARTWAL</i> </p>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- ----------- javascript for Toggle Menu---------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+
+</html>

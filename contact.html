@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/lo-removebg-preview.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+
+
+
+
+    <!--------------------------------------- contact us ----------------------------------------->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1634789.9555740426!2d78.53872275251689!3d29.62496872918538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909dcc202279c09%3A0x7c43b63689cc005!2sUttarakhand!5e0!3m2!1sen!2sin!4v1666019426878!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <h2>CONTACT DETAILS</h2>
+                <br><br>
+                <div>
+
+                    <span>
+                        <h5>saraswati vidya mandir jakhanidhar</h5>
+                        <p>Tehri garhwal, uttrakhand</p>
+                    </span>
+                </div>
+                <div>
+
+                    <span>
+                        <h5>+91 8923226036  , +91 7668608407</h5>
+                        
+                        <h5>+91 9761759771 , +91 7505275070</h5>
+                       
+
+                        <h3>Monday to Saturday, 10AM to 6PM</h3>
+                    </span>
+                </div>
+                <div>
+
+                    <span>
+                        <h5>svmic.jakhanidhar@gmail.com</h5>
+                        <p>Email us your querry</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter email Address" required>
+                    <input type="number" placeholder="Enter your number " required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Messege" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Sand Messege</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!--------------------------------------------- Footer ------------------------------------------>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Admission are open 2023 <br> saraswati vidya mandir jakhanidhar Tehri garhwal uttrakhand.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkdin"></i>
+
+
+        </div>
+        <p>Made With <i class="fa fa-heart-o"> by DHEERAJ BARTWAL</i> </p>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- ------------------------------------ javascript for Toggle Menu--------------------------------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+
+</html>
